@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090b0d">
+  <meta name="description" content="周德涛的作品集：AIGC 创作台、宠医智库与 BossFlow。">
+  <title>周德涛 — 数字作品集</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <div class="load-curtain" aria-hidden="true"><span>作品正在进入视野</span><b>✳</b></div>
+  <div class="site-progress" aria-hidden="true"><span></span></div>
+  <header class="site-header">
+    <a class="identity" href="#top" aria-label="回到顶部"><b>ZDT</b><small>周德涛 · 数字作品</small></a>
+    <nav aria-label="主导航"><a href="#works">项目</a><a href="#approach">方法</a><a href="#contact">关于</a></nav>
+    <span class="edition">PORTFOLIO / 2026</span>
+  </header>
+  <main>
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <canvas id="flow-canvas" aria-hidden="true"></canvas>
+      <div class="hero-grain" aria-hidden="true"></div>
+      <div class="hero-content">
+        <div class="hero-topline"><span>AI MARKETING · CONTENT × WORKFLOW</span><span>01—03 / SCROLL TO EXPLORE</span></div>
+        <h1 id="hero-title">让作品<br><em>自己流动</em><span class="period">.</span></h1>
+        <p>用 AI 做视觉内容，也把复杂产品讲清楚。<br>这里记录从提示词、知识表达，到工作流设计的实践。</p>
+        <a class="hero-cta" href="#works"><span>进入作品</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v17m0 0 7-7m-7 7-7-7"/></svg></a>
+      </div>
+      <div class="hero-pieces" aria-hidden="true">
+        <img class="piece-a" src="assets/glass-flower.png" alt="">
+        <img class="piece-b" src="assets/glass-arch.png" alt="">
+        <div class="piece-c"><i></i><i></i><i></i><span>FLOW / 03</span></div>
+      </div>
+      <div class="hero-foot"><span>DESIGN × AI × DEVELOPMENT</span><span>往下，进入三个不同尺度的系统</span></div>
+    </section>
+
+    <div class="work-index" id="works"><span>已选择的作品</span><span>03 PROJECTS / ONE THROUGHLINE</span></div>
+
+    <article class="project project-aigc" id="aigc" data-accent="#d6ef65" aria-labelledby="aigc-title">
+      <div class="project-media"><img src="assets/glass-flower.png" alt="黄绿色光线下的玻璃花，AIGC 创作台项目视觉"><div class="media-frame"><span>A / 01</span><span>IMAGE AS MATERIAL</span></div></div>
+      <div class="project-copy"><span class="chapter">CHAPTER 01 / VISUAL CREATION</span><h2 id="aigc-title">从一句话<br>生长出画面。</h2><p>AIGC 创作台把提示词、画幅、生成记录和作品策展放进同一个界面。Material / Light 系列以玻璃、石材和单一光源建立统一的视觉语言。</p><div class="project-facts"><span>NextChat 二次开发</span><span>界面设计 / AI 图像 / 案例策展</span></div><a class="project-link" href="aigc/index.html"><span>打开完整案例</span><b>↗</b></a></div>
+      <div class="project-watermark" aria-hidden="true">01</div>
+    </article>
+
+    <article class="project project-petmed" id="petmed" data-accent="#f4a15c" aria-labelledby="petmed-title">
+      <div class="project-media petmed-star-preview" role="img" aria-label="宠医智库疾病星空图，展示疾病与症状之间的关系"><div class="media-frame"><span>B / 02</span><span>DISEASE CONSTELLATION</span></div><div class="media-label">疾病关系图 · PetMedKB 实际界面</div></div>
+      <div class="project-copy"><span class="chapter">CHAPTER 02 / KNOWLEDGE PRODUCT</span><h2 id="petmed-title">先看疾病关系，<br>再查回答依据。</h2><p>PetMedKB 有两个直观入口：疾病星空图呈现疾病与症状的联系；检索问答把回答和引用来源放在一起，方便核对依据。</p><div class="project-facts"><span>疾病与症状关系图</span><span>引用式检索问答</span></div><a class="project-link" href="petmed.html"><span>查看项目逻辑</span><b>↗</b></a></div>
+      <div class="project-watermark" aria-hidden="true">02</div>
+    </article>
+
+    <article class="project project-boss" id="bossflow" data-accent="#88a9ff" aria-labelledby="boss-title">
+      <div class="project-media boss-visual" role="img" aria-label="BossFlow 工作流示意：岗位要求、履历证据、人工确认、定制材料"><div class="flow-grid" aria-hidden="true"></div><div class="flow-track"><span>岗位要求</span><i></i><span>履历证据</span><i></i><span>人工确认</span><i></i><span>定制材料</span></div><div class="boss-signal">未核实的经历，<br>先留在草稿里。</div><div class="media-frame"><span>C / 03</span><span>EVIDENCE BEFORE MATERIAL</span></div><div class="media-label">流程示意 · 不含真实求职数据</div></div>
+      <div class="project-copy"><span class="chapter">CHAPTER 03 / AUTOMATION SYSTEM</span><h2 id="boss-title">先核对履历证据，<br>再生成岗位材料。</h2><p>基于开源 BossFlow 的本地应用实践。把岗位要求与履历证据对照，未确认的经历留给本人审核后，再用于定制材料。</p><div class="project-facts"><span>岗位要求与履历匹配</span><span>人工审核后生成材料</span></div><a class="project-link" href="bossflow.html"><span>查看项目逻辑</span><b>↗</b></a></div>
+      <div class="project-watermark" aria-hidden="true">03</div>
+    </article>
+
+    <section class="approach" id="approach"><div class="approach-head"><span>HOW I WORK</span><h2>先想清楚<br>再让 AI 动手。</h2></div><div class="approach-steps"><p><b>明确受众</b><span>先确定内容给谁看、要解决什么问题。</span></p><p><b>写清约束</b><span>整理提示词、内容结构或筛选规则，让结果有方向。</span></p><p><b>检查成品</b><span>核对事实、来源和呈现方式，再整理成可阅读的作品。</span></p></div></section>
+  </main>
+  <footer id="contact"><div><span>THANK YOU FOR LOOKING</span><h2>好的作品，<br>能继续对话。</h2></div><p>周德涛 / 数字作品集<br>AI 内容创作 / 产品表达 / AI 工具应用<br>各项目说明均注明素材来源与实际状态。</p><a href="#top">回到开头 ↑</a></footer>
+</body>
+</html>
